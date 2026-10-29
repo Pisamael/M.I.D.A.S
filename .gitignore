@@ -1,0 +1,11 @@
+# Ignore build directories and compiled binaries
+build/
+turret_vision
+
+# Ignore large toolchains if they are nested nearby
+luckfox-pico/
+luckfox_pico_rknn_example/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
